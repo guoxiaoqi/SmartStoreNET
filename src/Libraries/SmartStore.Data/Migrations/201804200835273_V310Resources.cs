@@ -81,9 +81,9 @@ namespace SmartStore.Data.Migrations
 
             builder.AddOrUpdate("Admin.Configuration.Settings.Catalog.MaxItemsToDisplayInCatalogMenu",
                 "Max items to display in catalog menu",
-                "Maximale Anzahl von Elementen im Katalogmenü",
+                "Maximale Anzahl von Elementen im Katalogmen",
                 "Defines the maximum number of top level items to be displayed in the main catalog menu. All menu items which are exceeding this limit will be placed in a new dropdown menu item.",
-                "Legt die maximale Anzahl von Menu-Einträgen der obersten Hierarchie fest, die im Katalogmenü angezeigt werden. Alle weiteren Menu-Einträge werden innerhalb eines neuen Dropdownmenus ausgegeben.");
+                "Legt die maximale Anzahl von Menu-Einträgen der obersten Hierarchie fest, die im Katalogmen?angezeigt werden. Alle weiteren Menu-Einträge werden innerhalb eines neuen Dropdownmenus ausgegeben.");
 
             builder.AddOrUpdate("CatalogMenu.MoreLink", "More", "Mehr");
 
@@ -289,8 +289,8 @@ namespace SmartStore.Data.Migrations
                 "Der Auftrag wurde als ausgeliefert markiert");
 
             builder.AddOrUpdate("Admin.Configuration.Settings.Payment.CapturePaymentReason",
-                "Capture payment amount when…",
-                "Zahlungsbetrag einziehen, wenn…",
+                "Capture payment amount when",
+                "Zahlungsbetrag einziehen, wenn",
                 "Specifies the event when the payment amount is automatically captured. The selected payment method must support capturing for this.",
                 "Legt das Ereignis fest, zu dem der Zahlunsgbetrag automatisch eingezogen wird. Die gewählte Zahlart muss hierfür Buchungen unterstützen.");
 

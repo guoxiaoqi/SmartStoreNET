@@ -325,3 +325,7 @@ src/Presentation/SmartStore.Web/Themes/FlexMuseo/
 
 # Used by SSL certificates management tools (e.g. Certify The Web).
 /src/Presentation/SmartStore.Web/.well-known
+
+
+# 发布文件夹
+发布/*
